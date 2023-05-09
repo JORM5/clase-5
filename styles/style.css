@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,300&family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-color: teal;
+    display: flex;
+    gap: 50px;
+    grid-gap: 20px; 
+}
+
+.logo{
+width: 150px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.menu__item a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.menu__item.active a{
+    text-decoration: underline double;
+}
+
+.imagenprincipal{
+    height: 80vh;
+    background-image: url("../img/imagenprincipal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 299px;
+}
+
+.imagenprincipal h2{
+    color: rgb(228, 214, 27);
+    background-color: blue;
+    padding-inline: 20px;
+}
+
+.imagenprincipal p{
+    color: rgba(255, 125, 3, 0.849);
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+    flex: 1;
+}
+
+.tarjeta {
+   background-color: darkturquoise; 
+   border-radius: 20px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.informacion {
+    padding-inline: 20px;
+    padding-bottom: 20px;
+}
+
+.tarjeta_imagen{
+    max-width: 100%;
+}
+
+.pie{
+    background-color: teal;
+    color: rgb(255, 4, 222);
+    padding-block:20px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
